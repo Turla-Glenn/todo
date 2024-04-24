@@ -49,8 +49,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 items: <String>[
                   'Light',
                   'Dark',
-                  'Custom Theme 1',
-                  'Custom Theme 2'
                 ].map<DropdownMenuItem<String>>((String value) {
                   return DropdownMenuItem<String>(
                     value: value,
