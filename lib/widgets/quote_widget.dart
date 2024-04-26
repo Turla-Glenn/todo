@@ -31,10 +31,11 @@ class _QuoteWidgetState extends State<QuoteWidget> {
         } else {
           return Center(
             child: Container(
-              padding: EdgeInsets.all(16),
+              padding: EdgeInsets.all(5),
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.grey),
-                borderRadius: BorderRadius.circular(8),
+                borderRadius: BorderRadius.circular(20),
+
               ),
               child: Text(
                 snapshot.data.toString(),

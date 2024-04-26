@@ -113,12 +113,14 @@ class _MainScreenState extends State<MainScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                SizedBox(height: 20),
                 // Only show quote and GIF if _showQuoteAndGif is true
                 if (_showQuoteAndGif)
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       QuoteWidget(quoteService: _quoteService),
-                      SizedBox(height: 20),
+                      SizedBox(height: 90),
                       GifWidget(),
                     ],
                   ),
